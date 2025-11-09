@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="../CSS/style.css" />-->
+    <title>CODE HASH</title>
+    
+    <!--<link rel="shortcut icon" href="../code_icon_150718.ico" 
+    type="image/x-icon"/> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      body{
+    margin: 0px;
+    background-color: gainsboro;
+}
+
+
+.main{
+    
+    display: block;
+    background-color: gainsboro;
+}
+
+.dis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.sub1{
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+.sub2{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-right: 80px;
+}
+
+.sub1 li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: comic sans ms;
+    color: grey;
+}
+
+.sub2 li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: comic sans ms;
+    color: grey;
+}
+
+.sub1 li a:hover{
+    color: #800020;
+}
+.sub2 li a:hover{
+    color: #800020;
+}
+.sub1 li a:active{
+    color: #ab1f49;
+}
+.sub2 li a:active{
+    color: #ab1f49;
+}
+
+.main2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(https://surl.li/iosktn);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 h1{
+    color: ghostwhite;
+    margin-top: 2%;
+    padding-top: 60px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+.main2 p{
+    color: ghostwhite;
+    margin-left: 55px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+}
+.main2 li{
+    color: ghostwhite;
+    margin-left: 55px;
+    margin-top: 6%;
+    font-size: 17px;
+    list-style-type: none;
+}
+.main2 li a{
+    color: ghostwhite;
+    margin-top: 55px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(79, 79, 243);
+}
+
+.main2 a:hover{
+    background-color: rgb(116, 145, 231);
+    color: ghostwhite;
+}
+.main2 a:active{
+    background-color: blue;
+}
+
+.main3 h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: comic sans ms;
+    color: grey;
+    margin-top: 70px;
+}
+
+
+.main4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+    border: none;
+    max-width: 100%;
+    height: 500px;
+    
+}
+.txt{
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    color: grey;
+    font-family: comic sans ms;
+    font-size: large;
+}
+.pic{
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 400px;
+}
+
+.pic img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+
+.main5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+    border: none;
+    max-width: 100%;
+    height: 400px;
+    padding: 20px;
+    
+}
+
+.gojo{
+    border: none;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    
+}
+.meg{
+    border: none;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+}
+.yuji{
+    border: none;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+}
+.gojo img{
+    border-radius: 50%;
+    width: 200px;
+    
+}
+.meg img{
+    border-radius: 50%;
+    width: 200px;
+}
+.yuji img{
+    border-radius: 50%;
+    width: 200px;
+}
+.gojo p{
+    color: gray;
+    font-size: medium;
+    font-family: comic sans ms;
+}
+.meg p{
+    color: gray;
+    font-size: medium;
+    font-family: comic sans ms;
+}
+.yuji p{
+    color: gray;
+    font-size: medium;
+    font-family: comic sans ms;
+}
+
+.in{
+    margin-left: 17%;
+    margin-right: 2%;
+    width: 40%;
+    height: 25px;
+    margin-bottom: 40px;
+    background-color: gainsboro;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.main6 h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: comic sans ms;
+    color: grey;
+    margin-top: 70px;
+}
+
+.main6 p{
+    text-align: center;
+    font-size: medium;
+    font-family: comic sans ms;
+    color: grey;
+}
+
+.btn{
+    width: 8%;
+    height: 37px;
+    font-family: comic sans ms;
+    color: grey;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: ghostwhite;
+}
+
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+    background-color: #222;
+}
+
+.par{
+    text-align: center;
+    color: lightgray;
+}
+
+.par h3{
+    font-size: 40px;
+    font-family: comic sans ms;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.par p{
+    color: lightgray;
+    font-size: 20;
+    font-family: comic sans ms;
+    
+}
+
+.icons{
+    font-size: 30px;
+}
+
+.ft{
+    margin-top: 60px;
+}
+
+
+
+
+    </style>
+
+  </head> 
+  <body>
+    <div class="main">
+        <ul class="dis">
+          <div class="sub1">
+            <li><a href="">Code Hash</a></li>
+          </div>
+ 
+          <div class="sub2">
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </div>
+        </ul>
+    </div>
+    
+    <div class="main2">
+      <div>
+        <h1>Welcome to CodeHash</h1>
+        <p>We are a group of developers who love to code.</p>
+        <p>We share our knowledge and experience through blogs.</p>
+        <li><a href="#">Learn More</a></li>
+      </div>
+    </div>
+
+    <div class="main3">
+        <h2>Our Mission</h2>
+    </div>
+
+    <div class="main4">
+      <div class="txt">
+        <p>Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit. Ullam quisquam quae ratione 
+          natus nisi reprehenderit ex, earum voluptatum eos 
+          odio nam doloribus cumque deserunt culpa 
+          dolores laudantium, consequuntur nihil ipsum 
+          error dolore velit aspernatur saepe blanditiis! 
+          Quae hic quam amet excepturi eaque dignissimos a 
+          at harum reprehenderit, omnis ex quos consectetur 
+          adipisicing elit. Ullam quisquam quae ratione 
+          natus nisi reprehenderit ex, earum voluptatum eos 
+          odio nam doloribus cumque deserunt culpa 
+          dolores laudantium, consequuntur nihil ipsum 
+          error dolore velit aspernatur.
+        </p>
+      </div>
+      <div class="pic">
+        <img src="https://surl.li/scmpyf" alt="">
+      </div>
+    </div>
+    <div class="main4">
+      <div class="pic">
+        <img src="https://surl.li/jguxty" alt="">
+      </div>
+      <div class="txt">
+        <p>Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit. Ullam quisquam quae ratione 
+          natus nisi reprehenderit ex, earum voluptatum eos 
+          odio nam doloribus cumque deserunt culpa 
+          dolores laudantium, consequuntur nihil ipsum 
+          error dolore velit aspernatur saepe blanditiis! 
+          Quae hic quam amet excepturi eaque dignissimos a 
+          at harum reprehenderit, omnis ex quos consectetur 
+          adipisicing elit. Ullam quisquam quae ratione 
+          natus nisi reprehenderit ex, earum voluptatum eos 
+          odio nam doloribus cumque deserunt culpa 
+          dolores laudantium, consequuntur nihil ipsum 
+          error dolore velit aspernatur.
+        </p>
+      </div>
+    </div>
+
+    <div class="main3">
+        <h2>Our Team</h2>
+    </div>
+
+    <div class="main5">
+      <div class="gojo">
+          <img src="https://surl.li/umwimj" alt="pfp of gojo">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum consectetur 
+            distinctio quo. Perferendis sed, ex perspiciatis, necessitatibus quis 
+            iure odio dicta quidem dolorum mollitia vero aliquid repudiandae 
+            accusantium quae dignissimos?</p>
+      </div>
+      <div class="meg">
+          <img src="https://surl.li/iiwnfk" alt="pfp of megumi">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum consectetur 
+            distinctio quo. Perferendis sed, ex perspiciatis, necessitatibus quis 
+            iure odio dicta quidem dolorum mollitia vero aliquid repudiandae 
+            accusantium quae dignissimos?</p>
+      </div>
+      <div class="yuji">
+          <img src="https://surl.li/iwjzul" alt="pfp of yuji">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum consectetur 
+            distinctio quo. Perferendis sed, ex perspiciatis, necessitatibus quis 
+            iure odio dicta quidem dolorum mollitia vero aliquid repudiandae 
+            accusantium quae dignissimos?</p>
+      </div>
+    </div>
+
+    <div class="main6">
+      <div>
+        <h2>Join our Community of Bloggers</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, consequatur eaque! Eius, perferendis minima! Magni distinctio harum ad sed dicta?</p>
+        <input class="in" type="email" placeholder="example@gmail.com">
+        <input class="btn" type="submit" value="Signup">   
+    </div>
+
+    <div class="footer">
+      <div class="par">
+        <h3>CodeHash Blogs</h3>
+        <p class="note">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum consectetur 
+            distinctio quo. Perferendis sed, ex perspiciatis, <br> necessitatibus quis 
+            iure odio dicta quidem dolorum mollitia vero aliquid repudiandae 
+            accusantium quae dignissimos?
+        </p>
+        <div class="ft">
+            <div class="icons">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-discord"></i>
+            </div>
+
+            <p>&copy; All Rights Recived <br> Made by Beiment Firew</p>
+        </div>           
+      </div>
+    </div>
+  </body>
+</html>
